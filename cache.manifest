@@ -1,7 +1,7 @@
 CACHE MANIFEST
 # version - 5.4                       
                          
-CACHE:
+CACHE: 
 
 # CSS
 css-normalize.css
@@ -12,7 +12,7 @@ main.css
 img/apple-touch-icon.png
 img/cookie-57x57.png
 img/cookie-114x114.png
-img/cookie-180x180.png
+img/cookie-180x180.png 
 img/face.png
 img/fortune.png
 img/icon.png
