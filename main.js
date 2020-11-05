@@ -26,6 +26,7 @@ function app() {
 	}
 
 	var fcBtn = document.querySelector("button")
+	// var resetBtn = document.querySelector("button")
 	
 		fortuneText = document.querySelector(".fc-fortune-text"),
 		fortuneLuckyNumbers = document.querySelector(".fc-lucky-numbers span"),
@@ -40,7 +41,7 @@ function app() {
 			fortuneLuckyNumbers.innerHTML = fortune.luckyNumbers.join(", ");
 		},
 		nextState = function(){
-			let elClass = this.classList,
+			let elClass = fcBtn.classList,
 				spawned = "spawned",
 				opened = "opened";
 
@@ -59,4 +60,5 @@ function app() {
 	
 	getFortune();
 	fcBtn.addEventListener("click",nextState);
+	resetBtn.addEventListener("click",nextState);
 }
