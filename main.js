@@ -25,8 +25,9 @@ function app() {
 		}
 	}
 
-	var fcBtn = document.querySelector("button")
-	// var resetBtn = document.querySelector("button")
+	// var fcBtn = document.querySelector("button");
+	var fcBtn = document.getElementById("cookieBtn");
+	var resetBtn = document.getElementById("reset");
 	
 		fortuneText = document.querySelector(".fc-fortune-text"),
 		fortuneLuckyNumbers = document.querySelector(".fc-lucky-numbers span"),

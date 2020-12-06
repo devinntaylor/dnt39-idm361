@@ -9,7 +9,8 @@ body, button {
 	line-height: 1.5;
 }
 body {
-	background: #fac8cb;
+	background: #FFD9DB;
+	/* background: #fac8cb; */
 	overflow-x: hidden;
 }
 button {
@@ -26,7 +27,9 @@ button {
     margin-top: 3em;
     font-family: serif;
     font-size: 18px;
-	color: white;
+	/* color:#00039E; */
+	/* color: #00c; */
+	color: #00c;
 	padding: 0 3rem 0 3rem;
 }
 
@@ -34,7 +37,8 @@ button {
 	background: none;
 	display: block;
 	margin: auto;
-	bottom: 20px;
+	right: 12px;
+	bottom: 30px;
 	position: fixed;
 }
 
@@ -272,7 +276,8 @@ button {
     margin-top: 1.2em;
     font-family: serif;
     font-size: 16px;
-    color: white;
+	/* color:#00039E; */
+	color: #00c;
 }
 
 #reset {
